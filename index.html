@@ -269,7 +269,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://auroraz116.github.io/auroraz116.github.io/2020/02/25/STM32时钟系统/">
+    <link itemprop="mainEntityOfPage" href="https://auroraz116.github.io/auroraz116.github.io/2020/02/25/STM32时钟系统/STM32时钟系统/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Aurora Zhang">
@@ -288,7 +288,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/auroraz116.github.io/2020/02/25/STM32时钟系统/" itemprop="url">STM32时钟系统</a></h1>
+                <a class="post-title-link" href="/auroraz116.github.io/2020/02/25/STM32时钟系统/STM32时钟系统/" itemprop="url">STM32时钟系统</a></h1>
         
 
         <div class="post-meta">
@@ -341,20 +341,34 @@
         
           
             <h1 id="STM32时钟系统"><a href="#STM32时钟系统" class="headerlink" title="STM32时钟系统"></a>STM32时钟系统</h1><p>（《stm32中文参考手册》）</p>
-<h3 id="时钟系统框图"><a href="#时钟系统框图" class="headerlink" title="时钟系统框图"></a>时钟系统框图</h3><p><img src="/auroraz116.github.io/2020/02/25/STM32时钟系统/MyBlog\blog\source\_posts\STM32时钟系统\20200225142529.png"></p>
+<h2 id="时钟系统框图"><a href="#时钟系统框图" class="headerlink" title="时钟系统框图"></a>时钟系统框图</h2><p><img src="/auroraz116.github.io/2020/02/25/STM32时钟系统/STM32时钟系统/MyBlog\blog\source\_posts\STM32时钟系统\20200225142529.png"></p>
 <p>详解：</p>
 <p>SYSCLK：系统时钟。</p>
 <p>CSS：时钟监控系统。</p>
 <p>HSI RC可作为系统时钟的一个选择，HSE Osc和它的2分频可作为选择器1的一个输入，也可以作为系统时钟的一个选择。由图可依次推至PLL的时钟输入。</p>
 <p>LSE Osc的作用一般是给RTC时钟供电，RTCCLK还可来自HSE Osc的128分频和LSI RC（约49KHz），LSI RC的作用主要作为独立看门狗(IWDGCLK)的时钟。</p>
-<h5 id="①STM32有5个时钟源。"><a href="#①STM32有5个时钟源。" class="headerlink" title="①STM32有5个时钟源。"></a>①STM32有5个时钟源。</h5><p>HSI RC：High Speed Internal 高速内部时钟，RC振荡器，频率约8MHz，精度不高。</p>
+<h3 id="①STM32有5个时钟源。"><a href="#①STM32有5个时钟源。" class="headerlink" title="①STM32有5个时钟源。"></a>①STM32有5个时钟源。</h3><p>HSI RC：High Speed Internal 高速内部时钟，RC振荡器，频率约8MHz，精度不高。</p>
 <p>HSE Osc：High Speed External 高速外部时钟，一般接8MHz的晶振，频率范围为4~16MHz。</p>
 <p>LSE Osc：低速外部时钟，接频率为32.768KHz的石英晶体。一般给RTC时钟供电。</p>
 <p>LSI RC：低俗内部时钟，RC振荡器，频率为40KHz，提供低功耗时钟。WDG。</p>
 <p>PLL：锁相环倍频输出，时钟输入源可选择为HSI/2、HSE或HSE/2。倍频可选2~16倍，但最大输出频率不得超过72MHz。</p>
 <p>系统时钟和外设时钟全部来自这五个时钟源。</p>
-<h5 id="②系统时钟可来自三个时钟源。"><a href="#②系统时钟可来自三个时钟源。" class="headerlink" title="②系统时钟可来自三个时钟源。"></a>②系统时钟可来自三个时钟源。</h5><p>HSI，HSE，PLL。</p>
-<h5 id="③任何一个外设再使用之前，必须首先使能其相应的时钟。"><a href="#③任何一个外设再使用之前，必须首先使能其相应的时钟。" class="headerlink" title="③任何一个外设再使用之前，必须首先使能其相应的时钟。"></a>③任何一个外设再使用之前，必须首先使能其相应的时钟。</h5><h3 id="几个重要的时钟"><a href="#几个重要的时钟" class="headerlink" title="几个重要的时钟"></a>几个重要的时钟</h3><ul>
+<h3 id="②系统时钟可来自三个时钟源。"><a href="#②系统时钟可来自三个时钟源。" class="headerlink" title="②系统时钟可来自三个时钟源。"></a>②系统时钟可来自三个时钟源。</h3><p>HSI，HSE，PLL。</p>
+<h3 id="③任何一个外设再使用之前，必须首先使能其相应的时钟。"><a href="#③任何一个外设再使用之前，必须首先使能其相应的时钟。" class="headerlink" title="③任何一个外设再使用之前，必须首先使能其相应的时钟。"></a>③任何一个外设再使用之前，必须首先使能其相应的时钟。</h3><h3 id="④所有外设时钟的最终来源都是SYSCLK。"><a href="#④所有外设时钟的最终来源都是SYSCLK。" class="headerlink" title="④所有外设时钟的最终来源都是SYSCLK。"></a>④所有外设时钟的最终来源都是SYSCLK。</h3><p>SYSCLK通过AHB分频器分频后送给各模块使用，这些模块包括：</p>
+<p>①、AHB 总线、内核、内存和 DMA 使用的 HCLK 时钟。 </p>
+<p>②、通过 8 分频后送给 Cortex 的系统定时器时钟，也就是 systick 了。 </p>
+<p>③、直接送给 Cortex 的空闲运行时钟 FCLK。 </p>
+<p>④、送给 APB1 分频器。APB1 分频器输出一路供 APB1 外设使用(PCLK1，最大 </p>
+<p>频率 36MHz)，另一路送给定时器(Timer)2、3、4 倍频器使用。 </p>
+<p>⑤、送给 APB2 分频器。APB2 分频器分频输出一路供 APB2 外设使用(PCLK2， </p>
+<p>最大频率 72MHz)，另一路送给定时器(Timer)1 倍频器使用。 </p>
+<p>其中需要理解的是 APB1 和 APB2 的区别，APB1 上面连接的是<em>低速外设</em>，包括电源接口、备份接口、CAN、USB、I2C1、I2C2、UART2、UART3 等等，APB2 上面连接的是<em>高速外设</em>包括 UART1、SPI1、Timer1、ADC1、ADC2、所有普通 IO 口(PA~PE)、第二功能 IO 口等。</p>
+<h3 id="⑤-SystemInit-函数中设置的系统时钟大小。"><a href="#⑤-SystemInit-函数中设置的系统时钟大小。" class="headerlink" title="⑤ SystemInit()函数中设置的系统时钟大小。"></a>⑤ SystemInit()函数中设置的系统时钟大小。</h3><p>SYSCLK(系统时钟) =72MHz</p>
+<p>AHB 总线时钟(使用 SYSCLK) =72MHz</p>
+<p>APB1 总线时钟(PCLK1) =36MHz</p>
+<p>APB2 总线时钟(PCLK2) =72MHz</p>
+<p>PLL 时钟 =72MHz</p>
+<h2 id="几个重要的时钟"><a href="#几个重要的时钟" class="headerlink" title="几个重要的时钟"></a>几个重要的时钟</h2><ul>
 <li><p>SYSCLK(系统时钟)</p>
 </li>
 <li><p>AHB总线时钟</p>
@@ -364,21 +378,21 @@
 <li>PLL时钟</li>
 </ul>
 <p>（详见中文参考手册）</p>
-<h3 id="RCC相关配置寄存器"><a href="#RCC相关配置寄存器" class="headerlink" title="RCC相关配置寄存器"></a>RCC相关配置寄存器</h3><p>keil程序中stm32f10x_rcc.c(.h)文件中有详细配置。</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    _IO <span class="keyword">unit32_t</span> CR;              <span class="comment">//CR寄存器，HSI,HSE,CSS,PLL等的使能和就绪标志位</span></span><br><span class="line">    _IO <span class="keyword">unit32_t</span> CFGR;            <span class="comment">//PLL等的时钟源的选择，分频系数的确定</span></span><br><span class="line">    _IO <span class="keyword">unit32_t</span> CIR;             <span class="comment">//</span></span><br><span class="line">    _IO <span class="keyword">unit32_t</span> APB2RSTR;        <span class="comment">//</span></span><br><span class="line">    _IO <span class="keyword">unit32_t</span> APB1RSTR;        <span class="comment">//</span></span><br><span class="line">    _IO <span class="keyword">unit32_t</span> AHBENR;          <span class="comment">//</span></span><br><span class="line">    _IO <span class="keyword">unit32_t</span> APB2ENR;         <span class="comment">//</span></span><br><span class="line">    _IO <span class="keyword">unit32_t</span> APB1ENR;         <span class="comment">//</span></span><br><span class="line">    _IO <span class="keyword">unit32_t</span> BDCR;            <span class="comment">//</span></span><br><span class="line">    _IO <span class="keyword">unit32_t</span> CSR;             <span class="comment">//</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="RCC相关配置寄存器"><a href="#RCC相关配置寄存器" class="headerlink" title="RCC相关配置寄存器"></a>RCC相关配置寄存器</h2><p>keil程序中stm32f10x_rcc.c(.h)文件中有详细配置。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    _IO <span class="keyword">unit32_t</span> CR;              <span class="comment">//CR寄存器，HSI,HSE,CSS,PLL等的使能和就绪标志位</span></span><br><span class="line">    _IO <span class="keyword">unit32_t</span> CFGR;            <span class="comment">//PLL等的时钟源的选择，分频系数的确定</span></span><br><span class="line">    _IO <span class="keyword">unit32_t</span> CIR;             <span class="comment">//清除/使能时钟就绪中断</span></span><br><span class="line">    _IO <span class="keyword">unit32_t</span> APB2RSTR;        <span class="comment">//APB2线上外设复位寄存器</span></span><br><span class="line">    _IO <span class="keyword">unit32_t</span> APB1RSTR;        <span class="comment">//APB1线上外设复位寄存器</span></span><br><span class="line">    _IO <span class="keyword">unit32_t</span> AHBENR;          <span class="comment">//DMA,SDIO等时钟使能</span></span><br><span class="line">    _IO <span class="keyword">unit32_t</span> APB2ENR;         <span class="comment">//APB2线上外设时钟使能</span></span><br><span class="line">    _IO <span class="keyword">unit32_t</span> APB1ENR;         <span class="comment">//APB1线上外设时钟使能</span></span><br><span class="line">    _IO <span class="keyword">unit32_t</span> BDCR;            <span class="comment">//备份域控制寄存器</span></span><br><span class="line">    _IO <span class="keyword">unit32_t</span> CSR;             <span class="comment">//控制状态寄存器</span></span><br><span class="line">&#125;RCC_TypeDef;</span><br></pre></td></tr></table></figure>
 <p>代码详解：</p>
 <p>CR指时钟控制寄存器（RCC_CR）。</p>
-<p><img src="/auroraz116.github.io/2020/02/25/STM32时钟系统/MyBlog\blog\source\_posts\STM32时钟系统\20200225150920.png" alt></p>
+<p><img src="/auroraz116.github.io/2020/02/25/STM32时钟系统/STM32时钟系统/MyBlog\blog\source\_posts\STM32时钟系统\20200225150920.png" alt></p>
 <p>CFGR寄存器（RCC_CFGR）。</p>
-<p><img src="/auroraz116.github.io/2020/02/25/STM32时钟系统/MyBlog\blog\source\_posts\STM32时钟系统\20200225151229.png" alt></p>
-<p><img src="/auroraz116.github.io/2020/02/25/STM32时钟系统/MyBlog\blog\source\_posts\STM32时钟系统\20200225151253.png" alt></p>
-<h3 id="RCC相关头文件和固件库源文件"><a href="#RCC相关头文件和固件库源文件" class="headerlink" title="RCC相关头文件和固件库源文件"></a>RCC相关头文件和固件库源文件</h3><h5 id="①时钟使能配置："><a href="#①时钟使能配置：" class="headerlink" title="①时钟使能配置："></a>①时钟使能配置：</h5><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">RCC_LSEConfig();</span><br><span class="line">RCC_HSEConfig();</span><br><span class="line">RCC_HSICmd();</span><br><span class="line">RCC_LSICmd();</span><br><span class="line">RCC_PLLCmd();</span><br></pre></td></tr></table></figure>
-<h5 id="②时钟源相关配置："><a href="#②时钟源相关配置：" class="headerlink" title="②时钟源相关配置："></a>②时钟源相关配置：</h5><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">RCC_PLLConfig();</span><br><span class="line">RCC_SYSCLKConfig();</span><br><span class="line">RCC_RCTCLKConfig();</span><br></pre></td></tr></table></figure>
-<h5 id="③分频系数选择配置："><a href="#③分频系数选择配置：" class="headerlink" title="③分频系数选择配置："></a>③分频系数选择配置：</h5><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">RCC_HCLKConfig();</span><br><span class="line">RCC_HCLK1Config();</span><br><span class="line">RCC_HCLK2Config();</span><br></pre></td></tr></table></figure>
-<h5 id="④外设时钟使能："><a href="#④外设时钟使能：" class="headerlink" title="④外设时钟使能："></a>④外设时钟使能：</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">RCC_APB1PeriphClockCmd();</span><br><span class="line">RCC_APB2PeriphClockCmd();</span><br><span class="line">RCC_APBPeriphClockCmd();</span><br></pre></td></tr></table></figure>
-<h5 id="⑤其他外设时钟配置："><a href="#⑤其他外设时钟配置：" class="headerlink" title="⑤其他外设时钟配置："></a>⑤其他外设时钟配置：</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">RCC_ADCCLKConfig();</span><br><span class="line">RCC_RTCCLKConfig();</span><br></pre></td></tr></table></figure>
-<h5 id="⑥状态参数获取参数："><a href="#⑥状态参数获取参数：" class="headerlink" title="⑥状态参数获取参数："></a>⑥状态参数获取参数：</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">RCC_GetClockFreq();</span><br><span class="line">RCC_GetSYSCLKSource();</span><br><span class="line">RCC_GetFlagStatus();</span><br></pre></td></tr></table></figure>
-<h5 id="⑦RCC中断相关函数："><a href="#⑦RCC中断相关函数：" class="headerlink" title="⑦RCC中断相关函数："></a>⑦RCC中断相关函数：</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">RCC_ITConfig();</span><br><span class="line">RCC_GetITStatus();</span><br><span class="line">RCC_ClearITPendingBit();</span><br></pre></td></tr></table></figure>
+<p><img src="/auroraz116.github.io/2020/02/25/STM32时钟系统/STM32时钟系统/MyBlog\blog\source\_posts\STM32时钟系统\20200225151229.png" alt></p>
+<p><img src="/auroraz116.github.io/2020/02/25/STM32时钟系统/STM32时钟系统/MyBlog\blog\source\_posts\STM32时钟系统\20200225151253.png" alt></p>
+<h2 id="RCC相关头文件和固件库源文件"><a href="#RCC相关头文件和固件库源文件" class="headerlink" title="RCC相关头文件和固件库源文件"></a>RCC相关头文件和固件库源文件</h2><h3 id="①时钟使能配置："><a href="#①时钟使能配置：" class="headerlink" title="①时钟使能配置："></a>①时钟使能配置：</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">RCC_LSEConfig();</span><br><span class="line">RCC_HSEConfig();</span><br><span class="line">RCC_HSICmd();</span><br><span class="line">RCC_LSICmd();</span><br><span class="line">RCC_PLLCmd();</span><br></pre></td></tr></table></figure>
+<h3 id="②时钟源相关配置："><a href="#②时钟源相关配置：" class="headerlink" title="②时钟源相关配置："></a>②时钟源相关配置：</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">RCC_PLLConfig();</span><br><span class="line">RCC_SYSCLKConfig();</span><br><span class="line">RCC_RCTCLKConfig();</span><br></pre></td></tr></table></figure>
+<h3 id="③分频系数选择配置："><a href="#③分频系数选择配置：" class="headerlink" title="③分频系数选择配置："></a>③分频系数选择配置：</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">RCC_HCLKConfig();</span><br><span class="line">RCC_HCLK1Config();</span><br><span class="line">RCC_HCLK2Config();</span><br></pre></td></tr></table></figure>
+<h3 id="④外设时钟使能："><a href="#④外设时钟使能：" class="headerlink" title="④外设时钟使能："></a>④外设时钟使能：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">RCC_APB1PeriphClockCmd();</span><br><span class="line">RCC_APB2PeriphClockCmd();</span><br><span class="line">RCC_APBPeriphClockCmd();</span><br></pre></td></tr></table></figure>
+<h3 id="⑤其他外设时钟配置："><a href="#⑤其他外设时钟配置：" class="headerlink" title="⑤其他外设时钟配置："></a>⑤其他外设时钟配置：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">RCC_ADCCLKConfig();</span><br><span class="line">RCC_RTCCLKConfig();</span><br></pre></td></tr></table></figure>
+<h3 id="⑥状态参数获取参数："><a href="#⑥状态参数获取参数：" class="headerlink" title="⑥状态参数获取参数："></a>⑥状态参数获取参数：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">RCC_GetClockFreq();</span><br><span class="line">RCC_GetSYSCLKSource();</span><br><span class="line">RCC_GetFlagStatus();</span><br></pre></td></tr></table></figure>
+<h3 id="⑦RCC中断相关函数："><a href="#⑦RCC中断相关函数：" class="headerlink" title="⑦RCC中断相关函数："></a>⑦RCC中断相关函数：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">RCC_ITConfig();</span><br><span class="line">RCC_GetITStatus();</span><br><span class="line">RCC_ClearITPendingBit();</span><br></pre></td></tr></table></figure>
 
           
         
