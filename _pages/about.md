@@ -31,22 +31,14 @@ My research interest:
 
 **2022.9 - 2023.3 Porsche Engineering (Shanghai) Co., Ltd.** | Intelligent Connected Vehicle (ICV) Intern, Electric & Electronics
 
-# Skills⚡
-
--  **Robotics:** ROS, OpenCV, Pytorch
--  **Simulation & Design:** Carla, Unity, Roadrunner, Gazebo, Altium Designer, AutoCAD, LabVIEW, CANoe, Adams/Car, Solidworks, STM32
--  **Programming:** Python, Matlab/SIMULINK, C/C++
-
 # Projects 💻
 
 ## Quadrotor Control and Motion Planning Algorithm Development
-<div align="center">
-<img src="https://github.com/Auroraaa06/Auroraaa06.github.io/blob/master/images/quadrotor.jpg" width="30%">
-</div>
 
-
+<center>
 <iframe src="https://giphy.com/embed/XLIHCgxtKtvY2AGlL0" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/XLIHCgxtKtvY2AGlL0">via GIPHY</a></p>
 <iframe src="https://giphy.com/embed/WKhTzrUSHPKSmavS7O" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/WKhTzrUSHPKSmavS7O">via GIPHY</a></p>
+</center>
 
 - &nbsp; Built a dynamic model of a quadrotor and implemented geometric nonlinear controller with PD control and implemented Dijkstra and A* algorithms to find the shortest path to the goal
 - &nbsp; Generated trajectory using mininum snap with inequility constraints and cost optimization, achieving collision-free and high speed (4.1m/s) quadrotor control
@@ -69,5 +61,11 @@ My research interest:
 
 ## Tongji University DIAN Racing Formula Student Electric Team
 
+
+# Skills⚡
+
+-  **Robotics:** ROS, OpenCV, Pytorch
+-  **Simulation & Design:** Carla, Unity, Roadrunner, Gazebo, Altium Designer, AutoCAD, LabVIEW, CANoe, Adams/Car, Solidworks, STM32
+-  **Programming:** Python, Matlab/SIMULINK, C/C++
 
 
