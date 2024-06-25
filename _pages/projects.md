@@ -14,7 +14,8 @@ Projects
 ## Quadrotor Control and Motion Planning Algorithm Development
 
 <center>
-<iframe src="https://giphy.com/embed/XLIHCgxtKtvY2AGlL0" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/XLIHCgxtKtvY2AGlL0">via GIPHY</a></p> | <iframe src="https://giphy.com/embed/WKhTzrUSHPKSmavS7O" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/WKhTzrUSHPKSmavS7O">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/XLIHCgxtKtvY2AGlL0" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/XLIHCgxtKtvY2AGlL0">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/WKhTzrUSHPKSmavS7O" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/WKhTzrUSHPKSmavS7O">via GIPHY</a></p>
 </center>
 
 - &nbsp; Built a dynamic model of a quadrotor and implemented geometric nonlinear controller with PD control and implemented Dijkstra and A* algorithms to find the shortest path to the goal
