@@ -9,7 +9,7 @@ redirect_from:
 
 Hi!👋 I'm Luying, a second year master student in Robotics from the University of Pennsylvania. 
 
-I am very fortunate to be advised by [Prof. Mangharam](https://www.seas.upenn.edu/~rahulm/) of X-Lab from [School of Electrical and Systems Engineering](https://www.ese.upenn.edu/) and [Prof. Matni](https://www.grasp.upenn.edu/people/nikolai-matni/) from [UPenn GRASP Lab](https://www.grasp.upenn.edu/), University of Pennsylvania
+I worked on Pipeline for fast Digital Twin development and integration in Driving Simulation at X-Lab with [Prof. Mangharam](https://www.seas.upenn.edu/~rahulm/) from [School of Electrical and Systems Engineering](https://www.ese.upenn.edu/) since January 2024 and now I'm doing research with [Prof. Eaton](https://www.seas.upenn.edu/~eeaton/) at [UPenn GRASP Lab](https://www.grasp.upenn.edu/) on the project [DARPA Triage Challenge](https://triagechallenge.darpa.mil/), and I am also very fortunate to be advised by [Prof. Matni](https://www.grasp.upenn.edu/people/nikolai-matni/) from UPenn GRASP Lab, University of Pennsylvania.
 
 My research interest:
 - &nbsp; Computer Vision
