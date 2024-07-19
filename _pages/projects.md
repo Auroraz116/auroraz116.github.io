@@ -14,7 +14,8 @@ redirect_from:
 *2024.7 - present*
 
 <center>
-  <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/darpa.png?raw=true" width="50%" height="50%">
+  <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/darpa.png?raw=true" alt="DARPA" width="50%" height="50%">
+  <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/baby.png?raw=true" alt="Heart Rate detection Example" width="50% height="50%">
 </center>
 - &nbsp; Implemented Python framework for Virtual Heart Rate(pyVHR) method to obtain pulse rate estimation relying on video, also known as remote photoplethysmography (rPPG).
 - &nbsp; Created a dataloader for our team to match ground truth data with images extracted from rosbags to train VLM models on actual data.
@@ -41,7 +42,9 @@ redirect_from:
 
 <center>
   <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/1.png?raw=true" alt="Franka Emika PANDA Robotic Arm" width="30%" height="30%">
-<iframe src="https://giphy.com/embed/N6OfVk7AznpKHMZTHP" width="404" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/N6OfVk7AznpKHMZTHP"></a></p>
+</center>
+<center>
+  <iframe src="https://giphy.com/embed/N6OfVk7AznpKHMZTHP" width="404" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/N6OfVk7AznpKHMZTHP"></a></p>
 </center>
 
 - &nbsp; Implemented the forward kinematics, Jacobians and velocity kinematics, Inverse kinematics with secondary tasks on Franka Emika PANDA robot arm with 7-DOF for robot manipulation using ROS and Gazebo.
