@@ -43,6 +43,7 @@ redirect_from:
 <center>
   <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/1.png?raw=true" alt="Franka Emika PANDA Robotic Arm" width="30%" height="30%">
 </center>
+
 <center>
   <iframe src="https://giphy.com/embed/N6OfVk7AznpKHMZTHP" width="404" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/N6OfVk7AznpKHMZTHP"></a></p>
 </center>
@@ -57,7 +58,10 @@ redirect_from:
 <center>
   <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/dataset.png?raw=true" alt="Dataset we used to train the model" width="50%" height="50%">
   <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/result.png?raw=true" alt="How it works" width="50%" height="50%">
-<iframe src="https://giphy.com/embed/Q4TI5JxSLEdYnawqsU" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Q4TI5JxSLEdYnawqsU"></a></p>
+</center>
+
+<center>
+  <iframe src="https://giphy.com/embed/Q4TI5JxSLEdYnawqsU" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Q4TI5JxSLEdYnawqsU"></a></p>
 </center>
 
 - &nbsp; Developed a query image-guided real-time instance detection and segmentation algorithm based on YOLACT and ResNet50 architecture for common objects such as iPads/phones, cups and T-shirts
