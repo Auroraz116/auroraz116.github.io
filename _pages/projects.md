@@ -9,19 +9,22 @@ redirect_from:
 
 {% include base_path %}
 
-Projects
 ======
 ## Quadrotor Control and Motion Planning Algorithm Development
 
-<center>
+<p>
 <iframe src="https://giphy.com/embed/XLIHCgxtKtvY2AGlL0" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/XLIHCgxtKtvY2AGlL0">via GIPHY</a></p>
 <iframe src="https://giphy.com/embed/WKhTzrUSHPKSmavS7O" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/WKhTzrUSHPKSmavS7O">via GIPHY</a></p>
-</center>
+</p>
 
 - &nbsp; Built a dynamic model of a quadrotor and implemented geometric nonlinear controller with PD control and implemented Dijkstra and A* algorithms to find the shortest path to the goal
 - &nbsp; Generated trajectory using mininum snap with inequility constraints and cost optimization, achieving collision-free and high speed (4.1m/s) quadrotor control
 
-## Robotic Arm Control
+## Implementation Control and Path Planning algorithms for Robotic Arm Manipulation
+![Franka Emika PANDA Robot Arm](https://github.com/Auroraz116/auroraz116.github.io/tree/master/images/1.png,https://github.com/Auroraz116/auroraz116.github.io/tree/master/images/8.png)
+- &nbsp; Implement the forward kinematics, Jacobians and velocity kinematics, Inverse kinematics with secondary tasks on Franka Emika PANDA robot arm with 7-DOF for robot manipulation using ROS and Gazebo.
+- &nbsp; Developed potential fields controller and a Rapidly-Exploring Random Tree(RRT) planner for the robotic arm for better control and path planning.
+- &nbsp; Deployed a full control pipeline for the final competition of stacking blocks and won the first place.
 
 
 ## Query Image Guided Instance Detection and Segmentation Algorithm Development
