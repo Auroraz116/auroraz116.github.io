@@ -43,10 +43,6 @@ redirect_from:
 *2024.3 - 2024.5*
 
 <center>
-  <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/1.png?raw=true" alt="Franka Emika PANDA Robotic Arm" width="30%" height="30%">
-</center>
-
-<center>
   <iframe src="https://giphy.com/embed/N6OfVk7AznpKHMZTHP" width="404" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/N6OfVk7AznpKHMZTHP"></a></p>
 </center>
 
