@@ -37,4 +37,5 @@ My research interest:
 -  **Simulation & Design:** Carla, Unity, Roadrunner, Gazebo, Altium Designer, AutoCAD, LabVIEW, CANoe, Adams/Car, Solidworks, STM32
 -  **Programming:** Python, Matlab/SIMULINK, C/C++
 
+# Check out my [Projects](https://auroraz116.github.io/projects/)!
 
