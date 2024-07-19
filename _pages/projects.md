@@ -12,8 +12,9 @@ redirect_from:
 ======
 ## DARPA Triage Challenge 
 *2024.7 - present*
-![DARPA](https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/darpa.png?raw=true)
-<img src="https://drive.google.com/drive/u/0/folders/1tFUy_ao1CBzUhzHLbdEJHwr76jcixTKu/darpa.png" width="50%" height="50%">
+<center>
+  <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/darpa.png?raw=true" width="50%" height="50%">
+</center>
 - &nbsp; Implemented Python framework for Virtual Heart Rate(pyVHR) method to obtain pulse rate estimation relying on video, also known as remote photoplethysmography (rPPG).
 - &nbsp; Created a dataloader for our team to match ground truth data with images extracted from rosbags to train VLM models on actual data.
 
