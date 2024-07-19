@@ -12,6 +12,7 @@ redirect_from:
 ======
 ## DARPA Triage Challenge 
 *2024.7 - present*
+
 <center>
   <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/darpa.png?raw=true" width="50%" height="50%">
 </center>
@@ -26,8 +27,10 @@ redirect_from:
 
 ## Quadrotor Control and Motion Planning Algorithm Development
 *2024.1 - 2024.4*
+
 <center>
 <iframe src="https://giphy.com/embed/XLIHCgxtKtvY2AGlL0" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/XLIHCgxtKtvY2AGlL0"></a></p>
+<iframe src="https://giphy.com/embed/CQpA0AU58wdsmhbIMs" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/CQpA0AU58wdsmhbIMs"></a></p>
 </center>
 
 - &nbsp; Built a dynamic model of a quadrotor and implemented geometric nonlinear controller with PD control and implemented Dijkstra and A* algorithms to find the shortest path to the goal
@@ -35,17 +38,25 @@ redirect_from:
 
 ## Implementation Control and Path Planning algorithms for Robotic Arm Manipulation
 *2024.3 - 2024.5*
-![Franka Emika PANDA Robotic Arm](https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/1.png?raw=true)
+
+<center>
+  <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/1.png?raw=true" alt="Franka Emika PANDA Robotic Arm" width="30%" height="30%">
 <iframe src="https://giphy.com/embed/N6OfVk7AznpKHMZTHP" width="404" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/N6OfVk7AznpKHMZTHP"></a></p>
+</center>
+
 - &nbsp; Implemented the forward kinematics, Jacobians and velocity kinematics, Inverse kinematics with secondary tasks on Franka Emika PANDA robot arm with 7-DOF for robot manipulation using ROS and Gazebo.
 - &nbsp; Developed potential fields controller and a Rapidly-Exploring Random Tree(RRT) planner for the robotic arm for better control and path planning.
 - &nbsp; Deployed a full control pipeline for the final competition of stacking blocks and won the first place.
 
 ## Query Image Guided Instance Detection and Segmentation Algorithm Development
 *2023.10 - 2023.12*
-![Dataset we used to train the model](https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/dataset.png?raw=true)
-![How it works](https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/result.png?raw=true)
+
+<center>
+  <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/dataset.png?raw=true" alt="Dataset we used to train the model" width="50%" height="50%">
+  <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/result.png?raw=true" alt="How it works" width="50%" height="50%">
 <iframe src="https://giphy.com/embed/Q4TI5JxSLEdYnawqsU" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Q4TI5JxSLEdYnawqsU"></a></p>
+</center>
+
 - &nbsp; Developed a query image-guided real-time instance detection and segmentation algorithm based on YOLACT and ResNet50 architecture for common objects such as iPads/phones, cups and T-shirts
 - &nbsp; Created a dataset with thousands of sythetic pictures and frames extracted from manually taken videos, ensuring rigorous testing, training and validation of the model
 - &nbsp; Trained model based on the dataset and validated the feasibility and generalization of our model, achieving over 0.8 confidence level for class prediction and processing frame eate of 16.12fps on laptop
