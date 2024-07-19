@@ -15,8 +15,10 @@ redirect_from:
 
 <center>
   <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/darpa.png?raw=true" alt="DARPA" width="50%" height="50%">
-  <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/baby.png?raw=true" alt="Heart Rate detection Example" width="50% height="50%">
+  
+  <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/baby.png?raw=true" alt="Heart Rate detection Example" width="50%" height="50%">
 </center>
+
 - &nbsp; Implemented Python framework for Virtual Heart Rate(pyVHR) method to obtain pulse rate estimation relying on video, also known as remote photoplethysmography (rPPG).
 - &nbsp; Created a dataloader for our team to match ground truth data with images extracted from rosbags to train VLM models on actual data.
 
