@@ -8,3 +8,5 @@ redirect_from:
 ---
 
 {% include base_path %}
+
+My [resume](https://drive.google.com/file/d/1-piUgO1EKJCcXVaj0L0IjY5svSrVXrPR/view?usp=sharing)
