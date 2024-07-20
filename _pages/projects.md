@@ -25,7 +25,7 @@ redirect_from:
 ## Digital Twin for Driving as Planning Support Tool 
 *2024.1 - 2024.7*
 <center>
-  <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/drivesim.png?raw=true" width="60%" height="60%>
+  <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/drivesim.png?raw=true" width="60%" height="60%">
 </center>
 
 - &nbsp; Work with Jitsik LLC, a startup company in Mixed Reality, testing the Unity and Unreal API of the Earth to create Virtual Reality models, extending the work for application as a planning support tool
