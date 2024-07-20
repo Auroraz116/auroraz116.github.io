@@ -37,7 +37,6 @@ redirect_from:
 
 <center>
 <iframe src="https://giphy.com/embed/XLIHCgxtKtvY2AGlL0" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/XLIHCgxtKtvY2AGlL0"></a></p>
-<iframe src="https://giphy.com/embed/CQpA0AU58wdsmhbIMs" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/CQpA0AU58wdsmhbIMs"></a></p>
 </center>
 
 - &nbsp; Built a dynamic model of a quadrotor and implemented geometric nonlinear controller with PD control and implemented Dijkstra and A* algorithms to find the shortest path to the goal
