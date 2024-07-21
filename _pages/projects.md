@@ -22,15 +22,15 @@ redirect_from:
 - &nbsp; Implemented Python framework for Virtual Heart Rate(pyVHR) method to obtain pulse rate estimation relying on video, also known as remote photoplethysmography (rPPG).
 - &nbsp; Created a dataloader for our team to match ground truth data with images extracted from rosbags to train VLM models on actual data.
 
-## Digital Twin for Driving as Planning Support Tool 
+## Digital Twin Development and Integration in Driving Simulation
 *2024.1 - 2024.7*
 <center>
   <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/drivesim.png?raw=true" width="60%" height="60%">
 </center>
 
-- &nbsp; Work with Jitsik LLC, a startup company in Mixed Reality, testing the Unity and Unreal API of the Earth to create Virtual Reality models, extending the work for application as a planning support tool
 - &nbsp; Extracted high-precision 3D map data from google map and built scenes of high accuracy in Roadrunner
 - &nbsp; Created complicated simulations of real traffic scenarios to help redesign the Roosevelt Blvd in Philadelphia, improving safety and accommodating high-capacity transit infrastructure
+- &nbsp; Work with Jitsik LLC, a startup company in Mixed Reality, testing the Unity and Unreal API of the Earth to create Virtual Reality models, extending the work for application as a planning support tool
 
 ## Quadrotor Control and Motion Planning Algorithm Development
 *2024.1 - 2024.4*
