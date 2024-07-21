@@ -77,6 +77,10 @@ redirect_from:
 
 ## Tongji University DIAN Racing Formula Student Electric Team
 *2021.10 - 2023.7*
+<center>
+  <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/racing.gif?raw=true" width="50%" height="50%">
+</center>
+
 - &nbsp; Designed a wheel side sensor node consisting of an IMU and temperature sensors to measure tire parameters, thus improving chassis tuning efficiency and optimizing VCU dynamic algorithms
 - &nbsp; Introduced a resource sharing platform called Yuque to over 100 group members. Created more than 50 technical and administrative documentations regarding embedded development and dynamic control algorithms
 - &nbsp; Participated in Formula Student Electric China (FSEC) Design Final Defense as Chief Electrical Engineer, achieving Second Place in Design Final Defense and First Prize (fourth place) in FSEC overall
