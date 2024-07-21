@@ -22,15 +22,15 @@ My research interest:
 
 # Education 🎓
 
-**2018.9 - 2023.7 Tongji University** | Bachelor of Engineering in Vehicle Engineering (Automobile)
-
 **2023.8 - 2025.5 (expected) University of Pennsylvania** | Master of Science in Engineering (Robotics)
+
+**2018.9 - 2023.7 Tongji University** | Bachelor of Engineering in Vehicle Engineering (Automobile)
 
 # Work Experiences 💼
 
-**2022.4 - 2022.9 NIO Automotive Technology Co., Ltd.** | Data Analysis Intern, Battery Test Sub-team
-
 **2022.9 - 2023.3 Porsche Engineering (Shanghai) Co., Ltd.** | Intelligent Connected Vehicle (ICV) Intern, Electric & Electronics
+
+**2022.4 - 2022.9 NIO Automotive Technology Co., Ltd.** | Data Analysis Intern, Battery Test Sub-team
 
 # Skills⚡
 
