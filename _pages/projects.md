@@ -19,8 +19,8 @@ redirect_from:
   <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/baby.png?raw=true" alt="Heart Rate detection Example" width="50%" height="50%">
 </center>
 
-- &nbsp; Implemented Python framework for Virtual Heart Rate(pyVHR) method to obtain pulse rate estimation relying on video, also known as remote photoplethysmography (rPPG).
-- &nbsp; Created a dataloader for our team to match ground truth data with images extracted from rosbags to train VLM models on actual data.
+- &nbsp; Implemented Python framework based on deep learning for Virtual Heart Rate (pyVHR) method, also known as remote photoplethysmography (rPPG), introduced HSV color space to extract any skin to obtain pulse rate estimation
+- &nbsp; Created a dataloader for our team to match ground truth data with images extracted from rosbags to train VLM models on actual data
 
 ## Digital Twin Development and Integration in Driving Simulation
 *2024.1 - 2024.7*
