@@ -16,7 +16,7 @@ redirect_from:
 <center>
   <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/darpa.png?raw=true" alt="DARPA" width="50%" height="50%">
   
-  <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/baby.png?raw=true" alt="Heart Rate detection Example" width="50%" height="50%">
+  <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/hr.png?raw=true" alt="Heart Rate detection Example" width="50%" height="50%">
 </center>
 
 - &nbsp; Implemented Python framework based on deep learning for Virtual Heart Rate (pyVHR) method, also known as remote photoplethysmography (rPPG), introduced HSV color space to extract any skin to obtain pulse rate estimation
