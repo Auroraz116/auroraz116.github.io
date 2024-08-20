@@ -20,7 +20,7 @@ redirect_from:
 </center>
 
 - &nbsp; Implemented Python framework based on deep learning for Virtual Heart Rate (pyVHR) method, also known as remote photoplethysmography (rPPG), introduced HSV color space to extract any skin to obtain pulse rate estimation
-- &nbsp; Created a dataloader for our team to match ground truth data with images extracted from rosbags to train VLM models on actual data
+- &nbsp; Created a dataloader for the team to match ground truth data with images extracted from rosbags and to train VLM models on actual data
 
 ## Digital Twin Development and Integration in Driving Simulation
 *2024.1 - 2024.7*
@@ -28,9 +28,10 @@ redirect_from:
   <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/drivesim.png?raw=true" width="60%" height="60%">
 </center>
 
-- &nbsp; Extracted high-precision 3D map data from google map and built scenes of high accuracy in Roadrunner
-- &nbsp; Created complicated simulations of real traffic scenarios to help redesign the Roosevelt Blvd in Philadelphia, improving safety and accommodating high-capacity transit infrastructure
-- &nbsp; Work with Jitsik LLC, a startup company in Mixed Reality, testing the Unity and Unreal API of the Earth to create Virtual Reality models, extending the work for application as a planning support tool
+- &nbsp; Extracted high-precision 3D map data from google map and built digital scenes of high accuracy in Roadrunner and Cesium
+- &nbsp; Created multiple simulations of real traffic scenarios in Unity and Carla to help redesign the Roosevelt Blvd in Philadelphia, improving safety and accommodating high-capacity transit infrastructure
+- &nbsp; Work with Jitsik LLC, a startup company in Mixed Reality, testing the Unity and Unreal API of the Earth to create Virtual Reality models, extending the work for application and completed the pipeline for digital twin development
+- &nbsp; Published as the first author: "Pipeline for fast Digital Twin development and integration in Driving Simulation" for the 2024 Road Safety & Simulation Conference
 
 ## Quadrotor Control and Motion Planning Algorithm Development
 *2024.1 - 2024.4*
@@ -41,6 +42,7 @@ redirect_from:
 
 - &nbsp; Built a dynamic model of a quadrotor and implemented geometric nonlinear controller with PD control and implemented Dijkstra and A* algorithms to find the shortest path to the goal
 - &nbsp; Generated trajectory using mininum snap with inequility constraints and cost optimization, achieving collision-free and high speed (4.1m/s) quadrotor control
+- &nbsp; Implemented Kalman filter to predict and update the status of the quadrotor in sensor constrained situations and completed collision-free quadrotor control
 
 ## Implementation Control and Path Planning algorithms for Robotic Arm Manipulation
 *2024.3 - 2024.5*
