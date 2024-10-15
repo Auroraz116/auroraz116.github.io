@@ -9,7 +9,7 @@ redirect_from:
 
 Hi!👋 I'm Luying, a second year master student in Robotics from the University of Pennsylvania. 
 
-I'm currently doing research with [Prof. Eaton](https://www.seas.upenn.edu/~eeaton/) at [UPenn GRASP Lab](https://www.grasp.upenn.edu/) on the project [DARPA Triage Challenge](https://triagechallenge.darpa.mil/) since July 2024. Before this, I did research at X-Lab with [Prof. Mangharam](https://www.seas.upenn.edu/~rahulm/) from [School of Electrical and Systems Engineering](https://www.ese.upenn.edu/) on the project "Pipeline for fast Digital Twin development and integration in Driving Simulation" from January to June. I am also very fortunate to be advised by [Prof. Matni](https://www.grasp.upenn.edu/people/nikolai-matni/) from UPenn GRASP Lab, University of Pennsylvania.
+I'm currently doing research with [Prof. Eaton](https://www.seas.upenn.edu/~eeaton/) at [UPenn GRASP Lab](https://www.grasp.upenn.edu/) on the project [DARPA Triage Challenge](https://triagechallenge.darpa.mil/) since July 2024. And I am also a teaching assistant for class CIS 5810 Computer Vision and Computational photography by [Prof. Jianbo Shi](https://www.cis.upenn.edu/~jshi/). I am also very fortunate to be advised by [Prof. Matni](https://www.grasp.upenn.edu/people/nikolai-matni/) from UPenn GRASP Lab, University of Pennsylvania.
 
 My research interest:
 
@@ -18,7 +18,7 @@ My research interest:
 - &nbsp; Machine Perception
 - &nbsp; Autonomous Systems
 
-[CV](https://drive.google.com/file/d/1-piUgO1EKJCcXVaj0L0IjY5svSrVXrPR/view?usp=sharing) / [Email](mailto:luyingz@seas.upenn.edu) / [LinkedIn](https://www.linkedin.com/in/luying-zhang-977a47267/)
+[CV](https://drive.google.com/file/d/12knEsOp5oJwtHw-p6tukn4UB2UlMwn8l/view?usp=sharing) / [Email](mailto:luyingz@seas.upenn.edu) / [LinkedIn](https://www.linkedin.com/in/luying-zhang-977a47267/)
 
 # Education 🎓
 
