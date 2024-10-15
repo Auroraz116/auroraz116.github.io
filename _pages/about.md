@@ -9,7 +9,7 @@ redirect_from:
 
 Hi!👋 I'm Luying, a second year master student in Robotics from the University of Pennsylvania. 
 
-I'm currently doing research with [Prof. Eaton](https://www.seas.upenn.edu/~eeaton/) at [UPenn GRASP Lab](https://www.grasp.upenn.edu/) on the project [DARPA Triage Challenge](https://triagechallenge.darpa.mil/) since July 2024. And I am also a teaching assistant for class CIS 5810 Computer Vision and Computational photography by [Prof. Jianbo Shi](https://www.cis.upenn.edu/~jshi/). I am also very fortunate to be advised by [Prof. Matni](https://www.grasp.upenn.edu/people/nikolai-matni/) from UPenn GRASP Lab, University of Pennsylvania.
+I'm currently doing research with [Prof. Eaton](https://www.seas.upenn.edu/~eeaton/) at [UPenn GRASP Lab](https://www.grasp.upenn.edu/) on the project [DARPA Triage Challenge](https://triagechallenge.darpa.mil/) since July 2024. I am also a teaching assistant for class CIS 5810 Computer Vision and Computational photography by [Prof. Jianbo Shi](https://www.cis.upenn.edu/~jshi/). I am also very fortunate to be advised by [Prof. Matni](https://www.grasp.upenn.edu/people/nikolai-matni/) from UPenn GRASP Lab, University of Pennsylvania.
 
 My research interest:
 
