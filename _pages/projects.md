@@ -19,8 +19,9 @@ redirect_from:
   <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/hr.png?raw=true" alt="Heart Rate detection Example" width="50%" height="50%">
 </center>
 
-- &nbsp; Implemented Python framework based on deep learning for Virtual Heart Rate (pyVHR) method, also known as remote photoplethysmography (rPPG), introduced HSV color space to extract any skin to obtain pulse rate estimation
-- &nbsp; Created a dataloader for the team to match ground truth data with images extracted from rosbags and to train VLM models on actual data
+- &nbsp; Implemented Python framework based on deep learning for Virtual Heart Rate (pyVHR) method, also known as remote photoplethysmography (rPPG), introduced HSV color space to extract any skin area to obtain heart rate estimation
+- &nbsp; Performed person cropping segmentation on raw images extracted from rosbags based on YOLOV7
+- &nbsp; Developed a ROS node that integrates heart rate detection and person segmentation, containerized with Docker, and incorporating alongside vision language model
 
 ## Digital Twin Development and Integration in Driving Simulation
 *2024.1 - 2024.7*
