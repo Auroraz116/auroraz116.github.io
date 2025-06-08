@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi!👋 I'm Luying, a Robotics Master's graduate from the University of Pennsylvania, my focus are deep learning for robotic perception and manipulation.
+Hi!👋 I'm Luying, a Robotics Master's graduate from the University of Pennsylvania, my research focus is on deep learning for robotic perception and manipulation.
 
 - &nbsp; Research Assistant with [Dr. Eaton](https://www.seas.upenn.edu/~eeaton/) at [UPenn GRASP Lab](https://www.grasp.upenn.edu/) on the project [DARPA Triage Challenge](https://triagechallenge.darpa.mil/) (July 2024 - May 2025). 
 
