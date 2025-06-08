@@ -11,7 +11,7 @@ Hi!👋 I'm Luying, a Robotics Master's graduate from the University of Pennsylv
 
 - &nbsp; Research Assistant with [Dr. Eaton](https://www.seas.upenn.edu/~eeaton/) at [UPenn GRASP Lab](https://www.grasp.upenn.edu/) on the project [DARPA Triage Challenge](https://triagechallenge.darpa.mil/) (July 2024 - May 2025). 
 
-- &nbsp; Research Assistant with [Prof. Mangharam](https://www.seas.upenn.edu/~rahulm/) on Digital Twin Development and Integration in Driving Simulation (Jan 2024- June 2024). Publication at [paper](https://uknowledge.uky.edu/ktc_present/43/).
+- &nbsp; Research Assistant with [Prof. Mangharam](https://www.seas.upenn.edu/~rahulm/) on Digital Twin Development and Integration in Driving Simulation (Jan 2024- June 2024). Publication at [here](https://uknowledge.uky.edu/ktc_present/43/).
 
 - &nbsp; Teaching assistant for class CIS 5810 Computer Vision and Computational photography by [Prof. Jianbo Shi](https://www.cis.upenn.edu/~jshi/) in Fall 2024. 
 
