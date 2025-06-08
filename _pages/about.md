@@ -9,16 +9,15 @@ redirect_from:
 
 Hi!👋 I'm Luying, a Robotics Master's graduate from the University of Pennsylvania, my focus are deep learning for robotic perception and manipulation.
 
-Research Assistant with [Dr. Eaton](https://www.seas.upenn.edu/~eeaton/) at [UPenn GRASP Lab](https://www.grasp.upenn.edu/) on the project [DARPA Triage Challenge](https://triagechallenge.darpa.mil/) (July 2024 - May 2025). 
-Research Assistant with [Prof. Mangharam](https://www.seas.upenn.edu/~rahulm/) on Digital Twin Development and Integration in Driving Simulation (Jan 2024- June 2024). Workshop publication at [paper](https://uknowledge.uky.edu/ktc_present/43/).
-Teaching assistant for class CIS 5810 Computer Vision and Computational photography by [Prof. Jianbo Shi](https://www.cis.upenn.edu/~jshi/) in Fall 2024. 
+- &nbsp; Research Assistant with [Dr. Eaton](https://www.seas.upenn.edu/~eeaton/) at [UPenn GRASP Lab](https://www.grasp.upenn.edu/) on the project [DARPA Triage Challenge](https://triagechallenge.darpa.mil/) (July 2024 - May 2025). 
+
+- &nbsp; Research Assistant with [Prof. Mangharam](https://www.seas.upenn.edu/~rahulm/) on Digital Twin Development and Integration in Driving Simulation (Jan 2024- June 2024). Publication at [paper](https://uknowledge.uky.edu/ktc_present/43/).
+
+- &nbsp; Teaching assistant for class CIS 5810 Computer Vision and Computational photography by [Prof. Jianbo Shi](https://www.cis.upenn.edu/~jshi/) in Fall 2024. 
 
 My research interest:
 
-- &nbsp; Deep Learning
-- &nbsp; Computer Vision
-- &nbsp; Robot Manipulation
-- &nbsp; Autonomous Systems
+Deep Learning | Computer Vision | Robot Manipulation | Autonomous Systems
 
 [CV](https://drive.google.com/file/d/1ETPaV8Yx1eQQLyjIMagtmqCd-wC7Sq9C/view?usp=sharing) / [Email](mailto:luyingz@seas.upenn.edu) / [LinkedIn](https://www.linkedin.com/in/luying-zhang-977a47267/)
 
