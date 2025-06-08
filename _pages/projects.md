@@ -11,7 +11,7 @@ redirect_from:
 
 ======
 ## DARPA Triage Challenge 
-*2024.7 - present*
+*2024.7 - 2025.5*
 
 <center>
   <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/darpa.png?raw=true" alt="DARPA" width="50%" height="50%">
@@ -19,9 +19,24 @@ redirect_from:
   <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/hr.png?raw=true" alt="Heart Rate detection Example" width="50%" height="50%">
 </center>
 
-- &nbsp; Implemented Python framework based on deep learning for Virtual Heart Rate (pyVHR) method, also known as remote photoplethysmography (rPPG), introduced HSV color space to extract any skin area to obtain heart rate estimation
-- &nbsp; Performed person cropping segmentation on raw images extracted from rosbags based on YOLOV7
-- &nbsp; Developed a ROS node that integrates heart rate detection and person segmentation, containerized with Docker, and incorporating alongside vision language model
+- &nbsp; Implemented Python framework for Virtual Heart Rate (pyVHR) for remote photoplethysmography (rPPG), achieving accurate heart rate estimation by introducing HSV color space for precise skin area extraction
+- &nbsp; Deployed deep learning model MTTS-CAN for rPPG, improving estimation accuracy by 38% and reducing processing time by 50%
+- &nbsp; Containerized ROS nodes for heart rate detection and person segmentation based on YOLOV7 using Docker, improving reproducibility and deployment efficiency
+- &nbsp; Implemented YOLOv7 person pose detection on aerial/ground IR imagery to enable visual servoing systems
+- &nbsp; Achieved high-performance localization via factor graphs, fusing GPS, LiDAR odometry and IMU for efficient and accurate state estimates
+
+## DiT Flow-Matching Policy for Bimanual Manipulation
+*2025.3 - 2025.5*
+<center>
+  <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/pouring.png?raw=true" alt="Pouring beans demo" width="50%" height="50%">
+
+  <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/vit_dit.png?raw=true" alt="VIT_DIT" width="50%" height="50%">
+</center>
+
+
+- &nbsp; 	Implemented flow-matching generative modeling as an alternative to DDPM/DDIM used by the original paper, significantly speeding up inference while achieving optimal accuracy
+- &nbsp; 	Implement a transformer-based diffusion policy backbone, consisting of a pretrained ViT as the vision encoderand a DiT as the denoising network, achieving 60% success rate in generalization on bimanual tasks
+- &nbsp; 	Collected 1000 demos of a bimanual pouring-bean task we designed (4 hours length) on a tabletop Bi-XArm setup using VR teleoperation
 
 ## Digital Twin Development and Integration in Driving Simulation
 *2024.1 - 2024.7*
