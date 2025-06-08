@@ -7,22 +7,22 @@ redirect_from:
   - /about.html
 ---
 
-Hi!👋 I'm Luying, a second year master student in Robotics from the University of Pennsylvania. 
+Hi!👋 I'm Luying, a Robotics Master's graduate from the University of Pennsylvania.
 
-I'm currently doing research with [Prof. Eaton](https://www.seas.upenn.edu/~eeaton/) at [UPenn GRASP Lab](https://www.grasp.upenn.edu/) on the project [DARPA Triage Challenge](https://triagechallenge.darpa.mil/) since July 2024. I am also a teaching assistant for class CIS 5810 Computer Vision and Computational photography by [Prof. Jianbo Shi](https://www.cis.upenn.edu/~jshi/). I am also very fortunate to be advised by [Prof. Matni](https://www.grasp.upenn.edu/people/nikolai-matni/) from UPenn GRASP Lab, University of Pennsylvania.
+I did research with [Prof. Eaton](https://www.seas.upenn.edu/~eeaton/) at [UPenn GRASP Lab](https://www.grasp.upenn.edu/) on the project [DARPA Triage Challenge](https://triagechallenge.darpa.mil/) from July 2024 till May 2025. I was also a teaching assistant for class CIS 5810 Computer Vision and Computational photography by [Prof. Jianbo Shi](https://www.cis.upenn.edu/~jshi/) in Fall 2024. I'm initerested in deep learning for robotic perception and manipulation.
 
 My research interest:
 
-- &nbsp; Machine Learning
+- &nbsp; Deep Learning
 - &nbsp; Computer Vision
-- &nbsp; Machine Perception
+- &nbsp; Robot Manipulation
 - &nbsp; Autonomous Systems
 
-[CV](https://drive.google.com/file/d/12knEsOp5oJwtHw-p6tukn4UB2UlMwn8l/view?usp=sharing) / [Email](mailto:luyingz@seas.upenn.edu) / [LinkedIn](https://www.linkedin.com/in/luying-zhang-977a47267/)
+[CV](https://drive.google.com/file/d/1ETPaV8Yx1eQQLyjIMagtmqCd-wC7Sq9C/view?usp=sharing) / [Email](mailto:luyingz@seas.upenn.edu) / [LinkedIn](https://www.linkedin.com/in/luying-zhang-977a47267/)
 
 # Education 🎓
 
-**2023.8 - 2025.5 (expected) University of Pennsylvania** | Master of Science in Engineering (Robotics)
+**2023.8 - 2025.5 University of Pennsylvania** | Master of Science in Engineering (Robotics)
 
 **2018.9 - 2023.7 Tongji University** | Bachelor of Engineering in Vehicle Engineering (Automobile)
 
