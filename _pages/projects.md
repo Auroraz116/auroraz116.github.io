@@ -16,7 +16,7 @@ redirect_from:
 <center>
   <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/darpa.png?raw=true" alt="DARPA" width="50%" height="50%">
   
-  <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/hr.png?raw=true" alt="Heart Rate detection Example" width="50%" height="50%">
+  <img src="https://github.com/Auroraz116/auroraz116.github.io/blob/master/images/system_software_diagram.png?raw=true" alt="Heart Rate detection Example" width="50%" height="50%">
 </center>
 
 - &nbsp; Implemented Python framework for Virtual Heart Rate (pyVHR) for remote photoplethysmography (rPPG), achieving accurate heart rate estimation by introducing HSV color space for precise skin area extraction
