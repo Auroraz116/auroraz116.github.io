@@ -38,7 +38,7 @@ Deep Learning | Computer Vision | Robot Manipulation | Autonomous Systems
 -  **Robotics:** ROS, OpenCV, Pytorch
 -  **Simulation & Design:** Carla, Unity, Roadrunner, Gazebo, Altium Designer, AutoCAD, LabVIEW, CANoe, Adams/Car, Solidworks, STM32
 -  **Programming:** Python, Matlab/SIMULINK, C/C++
--  **Language:** Chinese(Native), English, German(B2)
+-  **Language:** Chinese(Native), English, German
 
 # Check out my [Projects](https://auroraz116.github.io/projects/)!
 
