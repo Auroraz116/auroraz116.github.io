@@ -7,9 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Hi!👋 I'm Luying, a Robotics Master's graduate from the University of Pennsylvania.
+Hi!👋 I'm Luying, a Robotics Master's graduate from the University of Pennsylvania, my focus are deep learning for robotic perception and manipulation.
 
-I did research with [Prof. Eaton](https://www.seas.upenn.edu/~eeaton/) at [UPenn GRASP Lab](https://www.grasp.upenn.edu/) on the project [DARPA Triage Challenge](https://triagechallenge.darpa.mil/) from July 2024 till May 2025. I was also a teaching assistant for class CIS 5810 Computer Vision and Computational photography by [Prof. Jianbo Shi](https://www.cis.upenn.edu/~jshi/) in Fall 2024. I'm initerested in deep learning for robotic perception and manipulation.
+Research Assistant with [Dr. Eaton](https://www.seas.upenn.edu/~eeaton/) at [UPenn GRASP Lab](https://www.grasp.upenn.edu/) on the project [DARPA Triage Challenge](https://triagechallenge.darpa.mil/) (July 2024 - May 2025). 
+Research Assistant with [Prof. Mangharam](https://www.seas.upenn.edu/~rahulm/) on Digital Twin Development and Integration in Driving Simulation (Jan 2024- June 2024). Workshop publication at [paper](https://uknowledge.uky.edu/ktc_present/43/).
+Teaching assistant for class CIS 5810 Computer Vision and Computational photography by [Prof. Jianbo Shi](https://www.cis.upenn.edu/~jshi/) in Fall 2024. 
 
 My research interest:
 
