@@ -25,6 +25,13 @@ redirect_from:
 - &nbsp; Implemented YOLOv7 person pose detection on aerial/ground IR imagery to enable visual servoing systems
 - &nbsp; Achieved high-performance localization via factor graphs, fusing GPS, LiDAR odometry and IMU for efficient and accurate state estimates
 
+## Proximal Policy Optimization (Walker Training)
+*2025.4 - 2025.5*
+
+<iframe src="https://giphy.com/embed/n3yQNtZai7KGz2Fp7E" width="480" height="317" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/n3yQNtZai7KGz2Fp7E">via GIPHY</a></p>
+
+- &nbsp; Implemented PPO policy on Deepmind’s Control Suite.
+
 ## DiT Flow-Matching Policy for Bimanual Manipulation
 *2025.3 - 2025.5*
 <center>
