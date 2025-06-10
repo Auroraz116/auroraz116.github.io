@@ -13,8 +13,10 @@ Hi!👋 I'm Luying, a Robotics Master's graduate from the University of Pennsylv
 
 - &nbsp; Research Assistant with [Prof. Mangharam](https://www.seas.upenn.edu/~rahulm/) on Digital Twin Development and Integration in Driving Simulation (Jan 2024- June 2024). Publication at [here](https://uknowledge.uky.edu/ktc_present/43/).
 
-- &nbsp; Teaching assistant for class CIS 5810 Computer Vision and Computational photography by [Prof. Jianbo Shi](https://www.cis.upenn.edu/~jshi/) in Fall 2024. 
+- &nbsp; Teaching assistant for class CIS 5810 Computer Vision and Computational photography by [Prof. Jianbo Shi](https://www.cis.upenn.edu/~jshi/) in Fall 2024.
 
+- &nbsp; Board member of [Advancing Women in Engineering](https://awe.seas.upenn.edu/) from 2024-2025.
+  
 My research interest:
 
 Deep Learning | Computer Vision | Robot Manipulation | Autonomous Systems
